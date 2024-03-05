@@ -62,28 +62,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <!--Maven Enforcer Plugin-->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-enforcer-plugin</artifactId>
-                <version>${maven-enforcer-plugin}</version>
-                <executions>
-                    <execution>
-                        <id>enforce-maven</id>
-                        <goals>
-                            <goal>enforce</goal>
-                        </goals>
-                        <configuration>
-                            <rules>
-                                <requireMavenVersion>
-                                    <version>3.9.6</version>
-                                    <!--<version>3.9.5</version>-->
-                                </requireMavenVersion>
-                            </rules>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
             <!-- Maven Compiler Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -159,7 +137,6 @@
                     <mainClass>${mainClass}</mainClass>
                 </configuration>
             </plugin>
-
         </plugins>
     </build>
 </project>
