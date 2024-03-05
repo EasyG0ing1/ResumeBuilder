@@ -44,6 +44,8 @@ resume
 
 If the JDK and Maven are correct, it should run just fine.
 
+If you add or remove any questions from Main class, make sure it has a related hint which you can see in the two methods that provide that text. Then delete the `.ResumeBuilder` folder so it can build everything properly upon first run. However, if you have answers that you've already saved, you will want to copy those somewhere so you can re-paste them into the text areas after making those changes.
+
 Create an issue if you are having any problems, and I'll see if I can help.
 
 Thanks!
