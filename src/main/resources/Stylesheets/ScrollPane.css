@@ -1,0 +1,17 @@
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane > .scroll-bar:vertical {
+    -fx-pref-width: 0;
+    visibility: hidden;
+}
+
+.scroll-pane > .scroll-bar:horizontal {
+    -fx-pref-height: 0;
+    visibility: hidden;
+}
+
+.scroll-pane {
+    -fx-background-color: rgb(200,2002,200);
+}
